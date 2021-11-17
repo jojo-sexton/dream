@@ -1,10 +1,7 @@
 import React from 'react'
 
 const Dreams = () => {
-  const state = {
-
-
-  }
+  
   const handleChange = (e) => {
     console.log(e)
   }
