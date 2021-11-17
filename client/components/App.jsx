@@ -1,18 +1,14 @@
 import React from 'react'
-import Header from './ref/Header'
 import Home from './Home'
 import Nav from './Nav'
-
-
 function App () {
   return (
     <div className='app'>
-      <Header />
-      <Nav />
-      <Home />
-    
+      <Nav/>
+      <div className='content'>
+        <Home/>
+      </div>
     </div>
   )
 }
-
 export default App
