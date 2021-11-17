@@ -84,10 +84,48 @@ var Dreams = function Dreams() {
     placeholder: "Money, money, money. Must be funny. In the rich man's world",
     required: true,
     onChange: handleChange
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", null, "Save My Dream")));
+  })));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Dreams);
+
+/***/ }),
+
+/***/ "./client/components/Future.jsx":
+/*!**************************************!*\
+  !*** ./client/components/Future.jsx ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+var Future = function Future() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "story"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Your Future"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("form", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", null, "When do you want to retire?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("textarea", {
+    className: "big-text",
+    id: "retire",
+    placeholder: "Aha. All the things I could do. If I had a little money. It's a rich man's world",
+    required: true
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", null, "How do you want to reitire?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("textarea", {
+    className: "big-text",
+    id: "whenDream",
+    placeholder: "I travel the world and the seven seas Everybody's looking for something",
+    required: true
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", null, "Do you have any savings or investments lined up for your retirement?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("textarea", {
+    className: "big-text",
+    id: "whenDream",
+    placeholder: " I work all night, I work all day to pay the bills I have to pay Ain't it sad? And still there never seems to be a single penny left for me That's too bad",
+    required: true
+  })));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Future);
 
 /***/ }),
 
@@ -104,6 +142,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _Story__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Story */ "./client/components/Story.jsx");
 /* harmony import */ var _Dreams__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Dreams */ "./client/components/Dreams.jsx");
+/* harmony import */ var _Future__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Future */ "./client/components/Future.jsx");
+
 
 
 
@@ -111,7 +151,7 @@ __webpack_require__.r(__webpack_exports__);
 var Home = function Home() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "home"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Dreams__WEBPACK_IMPORTED_MODULE_2__.default, null));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Story__WEBPACK_IMPORTED_MODULE_1__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Dreams__WEBPACK_IMPORTED_MODULE_2__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Future__WEBPACK_IMPORTED_MODULE_3__.default, null));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);
