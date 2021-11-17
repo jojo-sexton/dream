@@ -143,6 +143,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Story__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Story */ "./client/components/Story.jsx");
 /* harmony import */ var _Dreams__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Dreams */ "./client/components/Dreams.jsx");
 /* harmony import */ var _Future__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Future */ "./client/components/Future.jsx");
+/* harmony import */ var _Money__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Money */ "./client/components/Money.jsx");
+
 
 
 
@@ -151,10 +153,57 @@ __webpack_require__.r(__webpack_exports__);
 var Home = function Home() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "home"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Story__WEBPACK_IMPORTED_MODULE_1__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Dreams__WEBPACK_IMPORTED_MODULE_2__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Future__WEBPACK_IMPORTED_MODULE_3__.default, null));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Story__WEBPACK_IMPORTED_MODULE_1__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Dreams__WEBPACK_IMPORTED_MODULE_2__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Future__WEBPACK_IMPORTED_MODULE_3__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Money__WEBPACK_IMPORTED_MODULE_4__.default, null));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);
+
+/***/ }),
+
+/***/ "./client/components/Money.jsx":
+/*!*************************************!*\
+  !*** ./client/components/Money.jsx ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+var Money = function Money() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "story"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Your Money"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("form", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", null, "How much is your yearly income?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+    id: "income",
+    type: "number",
+    min: "0",
+    step: "1000",
+    placeholder: "income",
+    required: true
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", null, "After you have paid all of your expenses, how much do you have left over for saving?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+    id: "income",
+    type: "number",
+    min: "0",
+    step: "10",
+    placeholder: "leftover to save",
+    required: true
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", null, "If your income were to stopped, how do you carry on?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("textarea", {
+    className: "big-text",
+    id: "nightmare",
+    placeholder: "tell me about your nightmare",
+    required: true
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", null, "Do you have any backup plan?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("textarea", {
+    className: "big-text",
+    id: "whenDream",
+    placeholder: "In my dreams I have a plan If I got me a wealthy man I wouldn't have to work at all, I'd fool around and have a ballg",
+    required: true
+  })));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Money);
 
 /***/ }),
 
