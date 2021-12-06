@@ -16,7 +16,7 @@ const Dreams = () => {
       <form onSubmit={handleSubmit}>
         <label>What are you dreaming of?</label>
         <textarea className="big-text" id="dream"
-          placeholder="Aha. All the things I could do. If I had a little money. It's a rich man's world"
+          placeholder="Aha. All the things I could do"
           required
           onChange={handleChange}
         >
@@ -36,7 +36,7 @@ const Dreams = () => {
           type="number"
           min="100"
           step="100"
-          placeholder="Money, money, money. Must be funny. In the rich man's world"
+          placeholder="Money, money, money"
           required
           onChange={handleChange}
         />

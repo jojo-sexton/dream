@@ -7,7 +7,7 @@ const Future = () => {
       <form >
         <label>When do you want to retire?</label>
         <textarea className="big-text" id="retire"
-          placeholder="Aha. All the things I could do. If I had a little money. It's a rich man's world"
+          placeholder="Aha. All the things I could do. If I had a little money."
           required
         >
         </textarea>

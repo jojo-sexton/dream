@@ -67,7 +67,7 @@ var Dreams = function Dreams() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", null, "What are you dreaming of?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("textarea", {
     className: "big-text",
     id: "dream",
-    placeholder: "Aha. All the things I could do. If I had a little money. It's a rich man's world",
+    placeholder: "Aha. All the things I could do",
     required: true,
     onChange: handleChange
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", null, "How?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("textarea", {
@@ -81,7 +81,7 @@ var Dreams = function Dreams() {
     type: "number",
     min: "100",
     step: "100",
-    placeholder: "Money, money, money. Must be funny. In the rich man's world",
+    placeholder: "Money, money, money",
     required: true,
     onChange: handleChange
   })));
@@ -110,7 +110,7 @@ var Future = function Future() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Your Future"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("form", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", null, "When do you want to retire?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("textarea", {
     className: "big-text",
     id: "retire",
-    placeholder: "Aha. All the things I could do. If I had a little money. It's a rich man's world",
+    placeholder: "Aha. All the things I could do. If I had a little money.",
     required: true
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", null, "How do you want to reitire?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("textarea", {
     className: "big-text",
